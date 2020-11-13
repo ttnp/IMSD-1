@@ -14,10 +14,10 @@ Le fichier en entrée doit suivre un format pré-défini.
 
 Pour programmer la tondeuse, on lui fournit un fichier d'entrée construit comme suit :
 
-• La première ligne correspond aux coordonnées du coin supérieur droit de la pelouse,
+- La première ligne correspond aux coordonnées du coin supérieur droit de la pelouse,
 celles du coin inférieur gauche sont supposées être (0,0).
 
-• La suite du fichier permet de piloter toutes les tondeuses qui ont été déployées.
+- La suite du fichier permet de piloter toutes les tondeuses qui ont été déployées.
 Chaque tondeuse a deux lignes la concernant :
 
 - la première ligne donne la position initiale de la tondeuse, ainsi que son
@@ -54,10 +54,10 @@ The input file must follow a pre-defined format.
 
 To program the mower, it is provided with an input file constructed as follows:
 
-• The first line corresponds to the coordinates of the upper right corner of the lawn,
+- The first line corresponds to the coordinates of the upper right corner of the lawn,
 those in the lower left corner are assumed to be (0,0).
 
-• The rest of the file allows you to control all the mowers that have been deployed.
+- The rest of the file allows you to control all the mowers that have been deployed.
 Each mower has two lines relating to it:
 
 - the first line gives the initial position of the mower, as well as its
@@ -67,8 +67,7 @@ and a letter, separated by a space.
 - the second line is a series of instructions ordering the mower to explore
 the lawn. Instructions are a sequence of characters without spaces.
 
-
-`` raw
+```raw
 # Example
 
 5 5         plot size
@@ -76,4 +75,4 @@ the lawn. Instructions are a sequence of characters without spaces.
 GAGAGAGAA   related instructions
 3 3 E       initialization of a second mower
 AADAADADDA  related instructions
-`` ``
+```
