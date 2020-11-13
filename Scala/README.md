@@ -1,5 +1,5 @@
 # MowItNow Scala
-## Master IMDS 2020 - DEME & TRAN
+## Master IMSD 2020 - DEME & TRAN
 
 Un programme de tondeuse à gazon automatique, écrit en Scala.
 
