@@ -11,15 +11,7 @@ Le fichier en entrée doit suivre un format pré-défini.
 
 Pour programmer la tondeuse, on lui fournit un fichier d'entrée construit comme suit :
 
-```raw
-# Exemple
 
-5 5
-1 2 N
-GAGAGAGAA
-3 3 E
-AADAADADDA
-```
 
 • La première ligne correspond aux coordonnées du coin supérieur droit de la pelouse,
 celles du coin inférieur gauche sont supposées être (0,0).
@@ -34,9 +26,15 @@ et une lettre, séparés par un espace.
 - la seconde ligne est une série d'instructions ordonnant à la tondeuse d'explorer
 la pelouse. Les instructions sont une suite de caractères sans espaces.
 
+
 ```raw
+# Exemple
 
-
+5 5         dimension de la parcelle
+1 2 N       initialisation d'une tondeuse
+GAGAGAGAA   instructions relatives
+3 3 E       initialisation d'une seconde tondeuse
+AADAADADDA  instructions relatives
 ```
 
 
